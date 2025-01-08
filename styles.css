@@ -33,3 +33,23 @@ button:hover {
     margin-top: 10px;
     font-weight: bold;
 }
+
+#algebra-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    background: #fff;
+}
+
+#algebra-container input {
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+#algebra-feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}

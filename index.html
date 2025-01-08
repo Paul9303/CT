@@ -8,6 +8,8 @@
 </head>
 <body>
     <h1>Welcome to the Math Problem Generator</h1>
+    
+    <!-- General Problem Generator Section -->
     <div id="problem-container">
         <p id="problem"></p>
         <input type="text" id="answer" placeholder="Your answer">
@@ -15,6 +17,18 @@
         <p id="feedback"></p>
     </div>
     <button onclick="generateProblem()">Generate New Problem</button>
+
+    <!-- Algebra System of Equations Section -->
+    <div id="algebra-container">
+        <h2>System of Equations</h2>
+        <p id="equations"></p>
+        <input type="text" id="x-answer" placeholder="Enter value for x">
+        <input type="text" id="y-answer" placeholder="Enter value for y">
+        <button onclick="checkSystem()">Submit</button>
+        <p id="algebra-feedback"></p>
+        <button onclick="generateSystem()">Generate New Problem</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
